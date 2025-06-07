@@ -22,7 +22,6 @@ public class DirectedGra {
             int u = s.nextInt();
             int v = s.nextInt();
             adj[u][v] = 1;
-          //  adj[v][u] = 1;
         }
         return adj;
     }

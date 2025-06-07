@@ -19,13 +19,11 @@ public class MergeSorted {
         while(p2 >= 0){
             if(p1 >= 0 && num[p1] > num1[p2]){
                 num[i--] = num[p1--];
-               // i--;
-              //  p1--;
+
             }
             else{
                 num[i--] = num1[p2--];
-               // i--;
-              //  p2--;
+
             }
         }
      return num;

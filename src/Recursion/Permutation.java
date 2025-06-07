@@ -1,8 +1,6 @@
 package Recursion;
 import java.util.*;
-
-
-public class Permutation {
+public class   Permutation {
     static List<List<Integer>> listper (int [] arr){
         List<List<Integer>> ans = new ArrayList<>();
         List<Integer> ds = new ArrayList<>();

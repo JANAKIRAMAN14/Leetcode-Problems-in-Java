@@ -1,11 +1,11 @@
-package array;
+package DynamicProgramming;
 import java.util.*;
 public class Conis {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Input the data:");
         int s = sc.nextInt();
-      int res =  arrangingCoins(s);
+        int res =  arrangingCoins(s);
         System.out.println(res);
     }
 static int arrangingCoins(int s){

@@ -4,7 +4,7 @@ import java.util.*;
  class Permutation23 {
 
     public static void main(String[] args) {
-        int arr[] = {1, 2, 3};
+        int arr[] = {1, 2, 3,1};
         System.out.println(permuteUnique(arr));
     }
 

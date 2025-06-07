@@ -20,8 +20,6 @@ private lap(){
 }
 public class Laptop {
     public static void main(String[] args) {
-       // lap la = lap.asus;
-      //  System.out.println(la);
         for(lap la : lap.values()){
             System.out.println(la + ":"+ la.getPrice());
         }

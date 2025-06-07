@@ -31,7 +31,6 @@ public class Mergesort {
             li.add(arr[right]);
             right++;
         }
-        // Fix the index issue in the loop
         for (int i = low; i <= high; i++) {
             arr[i] = li.get(i - low);
         }
